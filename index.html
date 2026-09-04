@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Njumbi High School Farm Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Header -->
+    <header>
+        <div class="logo">
+            <h1>Njumbi High School Farm Tracker</h1>
+        </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#overview" class="active">Dashboard</a></li>
+                <li><a href="#crops">Crop Yields</a></li>
+                <li><a href="#livestock">Livestock Metrics</a></li>
+                <li><a href="#schedules">Schedules</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+        
+        <header class="page-header">
+            <h2>Farm Operations Overview</h2>
+            <p>Real-time metrics for Njumbi High School agricultural environments.</p>
+        </header>
+
+        <div class="dashboard-grid">
+            
+            <!-- Section A: Crop Status -->
+            <section id="crops" class="card">
+                <h3>🌾 Crop Management</h3>
+                <div class="metric-row">
+                    <span class="label">Active Fields:</span>
+                    <span class="value">4 / 6</span>
+                </div>
+                <article class="status-alert">
+                    <h4>Upcoming Harvest</h4>
+                    <p>Section B Maize is reaching maturity parameters in 3 days.</p>
+                </article>
+            </section>
+
+            <!-- Section B: Livestock Metrics -->
+            <section id="livestock" class="card">
+                <h3>🐄 Livestock Tracking</h3>
+                <div class="metric-row">
+                    <span class="label">Total Poultry:</span>
+                    <span class="value">142</span>
+                </div>
+                <div class="metric-row">
+                    <span class="label">Dairy Cattle:</span>
+                    <span class="value">12</span>
+                </div>
+            </section>
+
+            <!-- Section C: Task Schedules -->
+            <section id="schedules" class="card">
+                <h3>📅 Daily Operations Schedule</h3>
+                <ul class="schedule-list">
+                    <li><strong>07:00 AM</strong> - Automated Irrigation Cycle</li>
+                    <li><strong>09:30 AM</strong> - Student Feeding Rotation</li>
+                    <li><strong>04:00 PM</strong> - Soil Moisture Level Audit</li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Njumbi High School. Clean, Semantic Architecture Built Live.</p>
+    </footer>
+
+</body>
+</html>
